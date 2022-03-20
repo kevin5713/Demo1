@@ -1,0 +1,141 @@
+/* body{
+    background: red;
+} */
+body,img,ul,li{
+    padding:0px;
+    margin:0px;
+}
+#header{
+    width: 100%;
+    height: 40px;
+    /* border:1px solid red; */
+    border-bottom: 1px solid #ccc;
+}
+.header{
+    width: 1200px;
+    height: 40px;
+    border: 1px solid red;
+    margin: 0px auto;  //居中显示
+}
+.header_left{
+    width: 400px;
+    height: 40px;
+    border:1px solid green;
+    float: left;
+}
+.header_right{
+    width: 400px;
+    height: 40px;
+    border:1px solid #000000;
+    float:right;
+}
+/*头部样式结束*/
+/*LOGO样式*/
+#logo{
+    width: 1200px;
+    height: 80px;
+    border:1px solid red;
+    margin: 10px auto;  //居中显示
+}
+.logo_left{
+    width: 400px;
+    height: 80px;
+    border:1px solid green;
+    float: left;
+}
+.logo_right{
+    width: 400px;
+    height: 80px;
+    border:1px solid #000000;
+    float:right;
+}
+/*LOGO样式结束*/
+/*nav样式*/
+#nav{
+    width: 1200px;
+    height: 45px;
+    border: 1px solid rosybrown;
+    margin:0px auto;
+
+}
+.nav_left{
+    width: 300px;
+    height: 45px;
+    border:1px solid green;
+    float: left;
+}
+.nav_center{
+    width: 700px;
+    height: 45px;
+    border:1px solid red;
+    float:left;
+}
+.nav_right{
+    width: 150px;
+    height: 45px;
+    border:1px solid #000000;
+    float:right;
+}
+/* nav结束 banner开始*/
+#banner1{
+    width: 100%;
+    height: 600px;
+    background: #f4f4f4;
+    position: relative;  //相对定位，它的开始位置是绝对定位的开始位置
+   
+}
+.banner{
+    position:absolute ;
+}
+#p_content{
+    
+    width: 1200px;   
+    border: 1px solid red;
+    height: 516px;
+    position: absolute; //绝对定位，开始位置在相对定位的开始位置
+    top:0px;
+    /* CSS的计算属性 -号前后一定要有空格 */
+    left:calc(50% - 600px);  
+}
+.banner_nav{
+    width: 240px;
+    height: 516px;
+    border:1px solid red;
+    float: left;
+}
+.banner_right{
+    width: 950px;
+    height: 516px;
+    border:1px solid red;
+    float:right;
+}
+.banner_login{
+    width: 950px;
+    height: 398px;
+    border:1px solid #000000;
+    
+}
+.banner_bottom{
+    width: 950px;
+    height: 114px;
+    border:1px solid blue;
+    
+}
+.banner_bottom>div{
+    float: left;
+    width: 220px;
+    height: 114px;
+    border:1px solid green;
+    margin-left: 15px;
+}
+#sidebar{
+    width: 80px;
+    height: 360px;
+    border:1px solid red;
+    position: fixed;
+    right:0px;
+    top:calc(50%-360px/2);
+    background: #fff;
+    /* 圆角边框 */
+    border-radius: 10px 0px 0px 10px;
+}

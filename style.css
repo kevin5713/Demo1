@@ -1,0 +1,50 @@
+body{
+    font-size:16px;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    width: 100%;;
+    height:40px;
+    /* background:red; */
+}
+.header{
+    width: 1200px;
+    height:40px;
+    /* background: green; */
+    border:1px solid red;
+    padding:10px 10px 10px 0px;  //让图像居中
+}
+.header_left{
+    width:400px;
+    height:40px;
+    /* background:aqua; */
+    float:left;
+}
+.header_right{
+    width:500px;
+    height:40px;
+    /* background:pink; */
+    float:right;
+}
+.header_left>div{
+    float:left;
+    /* background: purple; */
+    line-height: 40px;
+    color:#8492A6;
+    border:1px solid red;
+}
+.header_left>div>span{
+    font-weight: bold;
+}
+.header_left>div:nth-child(2)>a,.header_left>div:nth-child(2)>a>img,.header_left>div:nth-child(2)>a>i{
+    float:left;
+}
+.header_left>div:nth-child(2)>a>img{
+    width:17px;
+    border:1px solid red;
+}
+.logo>a>img{
+    width: 150px; //调整图像大小
+}

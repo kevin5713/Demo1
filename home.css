@@ -1,0 +1,37 @@
+.header{
+    width: 100%;
+    height: 200px;
+    background: rgb(234, 234, 243);
+    border: 1px solid black;
+ }
+.logo{
+    /* width:370px;
+    height:77px; */
+    border: 1px solid #ff0000;
+    float: left;
+    padding:15px 10px;
+}
+.header_left{
+    height: 50px;
+    border: 1px solid green;
+    float: left;
+    line-height: 50px;
+}
+.logo>div>a>span{
+
+    background: yellow;
+    line-height: 77px;
+    float: right;
+} 
+.header_right{
+    border: 1px solid yellow;
+    float: left;
+}
+.top{
+    border: 1px solid red;
+    float: left;
+}
+.bottom{
+    border: 1px solid darkblue;
+    float:right;
+}
